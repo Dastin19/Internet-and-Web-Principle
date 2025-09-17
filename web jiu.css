@@ -1,0 +1,139 @@
+body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border: 5px double black;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navigation {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 60px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Georgia, serif;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+.nav-list a:hover {
+    color: #ff0000;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detail {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.more-info {
+    text-decoration: underline;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px #c2c2c2;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.more-info:hover {
+    background-color: #FFF0F5;
+}
+
+.grade.freshman {
+    background-color: #1E90FF; /* Dodger Blue */
+}
+.grade.sophomore {
+    background-color: #32CD32; /* Lime Green */
+}
+.grade.junior {
+    background-color: #FFD700; /* Gold */
+}
+.grade.senior {
+    background-color: #FFE4B5; /* Lemon Chiffon */
+}
+.IT-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    table-layout: fixed;
+}
+
+.IT-table th, .IT-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.IT-table thead th {
+    font-weight: bold;
+    background-color: #c0c0c0;
+}
+.IT-table .empty-header {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+}
+
+.IT-table .row-header {
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+    background-color: #00FFFF;
+}
+
+.IT-table .supplement-row td:not(.row-header) {
+    background-color: #F0E68C;
+}
+
+.IT-table .applications-row td:not(.row-header) {
+    background-color: #ffe6cc;
+}
